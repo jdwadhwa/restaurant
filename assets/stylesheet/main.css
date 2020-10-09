@@ -19,8 +19,11 @@ a{text-decoration: none;}
 #header .row{display: flex;
 }
 
-#header .col-md-9 {margin-top: 13px;}
-
+#header .col-md-9 {margin-top: 13px;
+}
+#header .col-md-9 a{
+    text-decoration: none;
+}
 #header .col-md-9 #mainlist{display: flex;
 justify-content: flex-end;
 }
@@ -123,6 +126,7 @@ justify-content: space-between;}
 
 #section_2 .row .col-md-6 .images .diff_2{
     margin-top: -198px;
+    left: 0;
 }
 
 #section_2 .row .col-md-6 {
@@ -286,6 +290,7 @@ letter-spacing: 1px;}
         background-color:#e44c2a;
         color: white;
         text-transform: uppercase;
+        text-decoration: none;
         
 
     }
@@ -315,7 +320,10 @@ top: 25%;
 z-index: 2;
 color: white;
 background-color: #464646;
-height: 550px;}
+height: 550px;
+align-items: center;
+justify-content: center;
+}
 
 #section_4 .subsection .subsection_2{position: absolute;
     width: 40%;
@@ -326,10 +334,11 @@ color: black;
 background-color:white;
 height: 550px; }
 
+
 #section_4 .subsection .subsection_1 ul li h2{
     text-transform: uppercase;
     margin-top: 15px;
-    text-align: center;
+    
 }
 
 
